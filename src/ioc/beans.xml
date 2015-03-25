@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans>
+ 	<bean name="student" class="ioc.Student">   
+        <property name="major" ref="major"></property>  
+    </bean>  
+	<bean name="major" class="ioc.Major"></bean>  
+</beans>
